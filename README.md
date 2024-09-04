@@ -1,5 +1,5 @@
-#Documentation of the Data-structures
-##Data-structures course (sem-3)
+#Documentation of the Data-structures/
+##Data-structures course (sem-3)/
 what's already uploaded:
 -Linked lists
   -Singly linked list
