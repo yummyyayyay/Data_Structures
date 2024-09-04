@@ -1,0 +1,11 @@
+# ninja log v6
+1	203	7471173120178096	build.ninja	15a3b771668dfedb
+3	63	7470758219469806	CMakeFiles/Data_Structures.dir/Linked_Lists/main.c.obj	33e5faf3e835f1c3
+3	65	7470754521756021	CMakeFiles/Data_Structures.dir/Stacks/Stack(array).c.obj	1d9d0a50a21f5643
+1	89	7470756149135360	CMakeFiles/Data_Structures.dir/Stacks/main.c.obj	e3e0a0cc3896de7f
+2	76	7471161358719817	Stacks/CMakeFiles/Stacks.dir/main.c.obj	9ef4b94b96ac1d1c
+77	173	7471161359475957	Stacks/Stacks.exe	f42f0b21ccdde499
+3	67	7471163487316337	queues/CMakeFiles/queues.dir/main.c.obj	8e6e888c4b47ef8
+13	97	7471161358840651	Linked_Lists/CMakeFiles/Linked_Lists.dir/main.c.obj	f99a30b271f0a47d
+67	145	7471163487961588	queues/queues.exe	3c664175627670a
+97	182	7471161359677314	Linked_Lists/Linked_Lists.exe	f655f5bf0854814a

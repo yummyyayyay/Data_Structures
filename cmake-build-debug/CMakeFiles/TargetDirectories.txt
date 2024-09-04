@@ -1,0 +1,17 @@
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/CMakeFiles/new_target.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/CMakeFiles/edit_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/CMakeFiles/rebuild_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/array/CMakeFiles/Stacks_array.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/array/CMakeFiles/edit_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/array/CMakeFiles/rebuild_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/linked_list/CMakeFiles/Stacks_linked_list.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/linked_list/CMakeFiles/edit_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/linked_list/CMakeFiles/rebuild_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/queues/CMakeFiles/queues.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/queues/CMakeFiles/edit_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/queues/CMakeFiles/rebuild_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Linked_Lists/CMakeFiles/Linked_Lists.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Linked_Lists/CMakeFiles/edit_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Linked_Lists/CMakeFiles/rebuild_cache.dir
