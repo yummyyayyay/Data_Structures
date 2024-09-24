@@ -3,6 +3,4 @@ project(Data_Structures C)
 
 set(CMAKE_C_STANDARD 11)
 
-
-add_subdirectory(array)
-add_subdirectory(linked_list)
+add_executable(queues_linked_list main.c)

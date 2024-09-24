@@ -1,96 +1,98 @@
 #include <stdio.h>
-#define MAX 30
+#include <stdlib.h>
 
-int TOP=-1;
+typedef struct stack{
+    struct stack* next;
+    int data;
+}STACK;
 
-int push(int* ,int );
-int pop(const int* );
-void peek(int* );
-void display(int* );
-int empty(int* );
+STACK* top = NULL;
+STACK* push(STACK*,int );
+STACK* pop(STACK*);
+int peek(STACK*);
+void display(STACK*);
 
 int main(){
-    int stack[MAX];
-    int choice,ele;
+    int choice,ele,val;
     do{
-        printf("1.InsertElement\n2.DeleteElement\n3.Peek\n4.Display\n5.Empty\n6.Exit\n");
+        printf("1.Push\n2.Pop\n3.Peek\n4.Display\n5.Exit\n");
         scanf("%d",&choice);
-        switch(choice){
+        switch (choice) {
             case 1:
-                printf("Enter the element:");
+                printf("Enter the element to be pushed:");
                 scanf("%d",&ele);
-                TOP = push(stack,ele);
+                top = push(top,ele);
                 break;
             case 2:
-                TOP = pop(stack);
+                top = pop(top);
                 break;
             case 3:
-                peek(stack);
+                val = peek(top);
+                if(val == -1)
+                    printf("The list is empty");
+                else{
+                    printf("The top element is %d",val);
+                }
                 break;
             case 4:
-                display(stack);
+                display(top);
                 break;
             case 5:
-                TOP = empty(stack);
-                break;
-            case 6:
                 return 0;
             default:
-                printf("Error\n");
+                printf("Wrong option\n");
         }
-    }while(choice<=6);
+    }while(choice != 5);
 }
 
-int push(int* arr,int ele){
-    if(TOP == MAX-1)
-        printf("Overflow\n");
-    else{
-        TOP++;
-        arr[TOP] = ele;
+
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "MemoryLeak"
+STACK* push(STACK* head,int ele){
+    STACK* temp = malloc(sizeof(STACK));
+    temp->data = ele;
+    temp->next = NULL;
+    if(top == NULL){
+        head = temp;
     }
-    return TOP;
-}
-
-int pop(const int* arr){
-    int val;
-    if(TOP == -1)
-        printf("Underflow\n");
     else{
-        val = arr[TOP];
-        TOP--;
-        printf("%d has been deleted\n",val);
+        temp->next = head;
+        head = temp;
     }
-    return TOP;
+    return head;
+}
+#pragma clang diagnostic pop
+
+
+STACK* pop(STACK* head){
+    if(head == NULL){
+        printf("STACK UNDERFLOW\n");
+    }
+    else{
+        STACK* q = head;
+        head = head->next;
+        free(q);
+    }
+    return head;
 }
 
-void peek(int* arr){
-    if(TOP == -1)
-        printf("The list is empty\n");
+int peek(STACK* head){
+    if(head == NULL)
+        return -1;
     else
-        printf("The topmost value is %d\n",arr[TOP]);
+        return(top->data);
 }
 
-void display(int*arr){
-    if(TOP == -1){
+void display(STACK* head){
+    if(head == NULL){
         printf("The list is empty\n");
     }
     else{
-        for(int i = 0 ; i<=TOP;i++){
-            printf("%d",arr[i]);
-            if(i != TOP)
+        while(head != NULL){
+            printf("%d",head->data);
+            if(head->next != NULL)
                 printf("->");
+            head = head->next;
         }
-        printf("\n");
     }
-
-}
-
-int empty(int* arr){
-    if(TOP == -1){
-        printf("The list is already empty\n");
-    }
-    else{
-        TOP = -1;
-    }
-    return TOP;
 }

@@ -3,5 +3,8 @@ project(Data_Structures C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(queues main.c
-        ../Stacks/array/main.c)
+add_subdirectory(array)
+add_subdirectory(linked_list)
+add_subdirectory(circular_queue)
+add_subdirectory(dequeue)
+add_subdirectory(priority_queues)
