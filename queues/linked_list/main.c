@@ -86,3 +86,73 @@ void Display(){
         printf("\n");
     }
 }
+
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//typedef struct node{
+//    int ele;
+//    struct node* next;
+//}node;
+//
+//struct queue{
+//    node* front;
+//    node* rear;
+//};
+//
+//void insert(struct queue*,int);
+//void delete(struct queue*);
+//
+//int main(){
+//    struct queue q;
+//    q.front = NULL;
+//    q.rear = NULL;
+//    int ele,choice;
+//    while(1){
+//        printf("1.Insert\n2.Delete\nEnter your option:");
+//        scanf("%d",&choice);
+//        switch(choice){
+//            case 1:
+//                printf("Enter the element:");
+//                scanf("%d",&ele);
+//                insert(&q,ele);
+//                break;
+//            case 2:
+//                delete(&q);
+//        }
+//    }
+//}
+//
+//void insert(struct queue* q,int ele){
+//    node* temp = (node*)malloc(sizeof(node));
+//    if(temp == NULL){
+//        printf("malloc failed");
+//    }
+//    else {
+//        temp->ele = ele;
+//        temp->next = NULL;
+//        if (q->front == NULL) {
+//            q->front = temp;
+//            q->rear = temp;
+//        }
+//        else {
+//            q->rear->next = temp;
+//            q->rear = temp;
+//        }
+//    }
+//}
+//
+//void delete(struct queue* q){
+//    if(q->front == NULL)
+//        printf("The list is already empty");
+//    else{
+//        if(q->front == q->rear){
+//            q->front = q->rear = NULL;
+//        }
+//        else{
+//            node* temp = q->front;
+//            q->front = q->front->next;
+//            free(temp);
+//        }
+//    }
+//}

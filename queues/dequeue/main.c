@@ -91,6 +91,7 @@ void insert_left(){
         else
             LEFT = LEFT -1;
     }
+    //deque[LEFT] = ele;
 }
 
 void insert_right(){
