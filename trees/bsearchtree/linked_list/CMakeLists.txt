@@ -3,4 +3,4 @@ project(Data_Structures C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(trees_bsearchtree_array main.c)
+add_executable(trees_bsearchtree_linked_list main.c)

@@ -11,7 +11,8 @@
 						1,
 						4,
 						12,
-						13
+						13,
+						14
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -221,6 +222,83 @@
 					[
 						3
 					]
+				},
+				{
+					"build" : "trees",
+					"childIndexes" : 
+					[
+						15
+					],
+					"jsonFile" : "directory-trees-Debug-006ce9555186d294342d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "trees"
+				},
+				{
+					"build" : "trees/bsearchtree",
+					"childIndexes" : 
+					[
+						16,
+						17,
+						18
+					],
+					"jsonFile" : "directory-trees.bsearchtree-Debug-65dca98efbc864804687.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 0,
+					"source" : "trees/bsearchtree"
+				},
+				{
+					"build" : "trees/bsearchtree/array",
+					"jsonFile" : "directory-trees.bsearchtree.array-Debug-eeca11c7e47456014ada.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "trees/bsearchtree/array",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "trees/bsearchtree/linked_list",
+					"jsonFile" : "directory-trees.bsearchtree.linked_list-Debug-ebb3fce7370e5fc8e28d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "trees/bsearchtree/linked_list",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "trees/bsearchtree/Right-in_Threaded_tree",
+					"jsonFile" : "directory-trees.bsearchtree.Right-in_Threaded_tree-Debug-428534d935f5d565d621.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "trees/bsearchtree/Right-in_Threaded_tree",
+					"targetIndexes" : 
+					[
+						10
+					]
 				}
 			],
 			"name" : "Debug",
@@ -242,7 +320,12 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
 					],
 					"name" : "Data_Structures",
 					"targetIndexes" : 
@@ -256,7 +339,10 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -330,6 +416,27 @@
 					"id" : "queues_priority_queues_linked_list::@2f2e6f4d3867664547e3",
 					"jsonFile" : "target-queues_priority_queues_linked_list-Debug-4e0984923651e75ab7ca.json",
 					"name" : "queues_priority_queues_linked_list",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "trees_bsearchtree_Right-in_Threaded_tree::@42b90638a4ff38a6da51",
+					"jsonFile" : "target-trees_bsearchtree_Right-in_Threaded_tree-Debug-f4d83ac0f619317bc464.json",
+					"name" : "trees_bsearchtree_Right-in_Threaded_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "trees_bsearchtree_array::@703b919dde4185c0965c",
+					"jsonFile" : "target-trees_bsearchtree_array-Debug-10bd3b16d2e5b602c573.json",
+					"name" : "trees_bsearchtree_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "trees_bsearchtree_linked_list::@8b1152066b207c1dfeb9",
+					"jsonFile" : "target-trees_bsearchtree_linked_list-Debug-adbc620f6644d763007c.json",
+					"name" : "trees_bsearchtree_linked_list",
 					"projectIndex" : 0
 				}
 			]

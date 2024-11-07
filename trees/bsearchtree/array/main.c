@@ -1,71 +1,93 @@
 #include <stdio.h>
-#define MAX 30
-int FRONT = -1,REAR = -1;
-int queue[MAX];
+#define MAX 100
 
-void Insert(int ele){
-    if(REAR == MAX-1){
-        printf("OVERFLOW\n");
-    }
-    else{
-        if(REAR == -1)
-            FRONT = 0;
-        REAR++;
-        queue[REAR] = ele;
-    }
-}
+typedef struct bs_tree{
+    int info;
+    int used;
+}BST;
 
-void Delete(){
-    if(FRONT == -1 && REAR == -1)
-        printf("UNDERFLOW\n");
-    else{
-        FRONT++;
-    }
-}
-
-void Peek(){
-    if(FRONT == -1 && REAR == -1)
-        printf("The list is empty\n");
-    else
-        printf("%d\n",queue[FRONT]);
-}
-
-void Display(){
-    if(REAR == -1 && FRONT == -1)
-        printf("List is empty\n");
-    else{
-        for(int i = 0 ; i <= REAR;i++){
-            printf("%d",queue[i]);
-            if(i != REAR)
-                printf("->");
-        }
+BST bst[MAX];
+void inorder(int);
+void input();
+void init(){
+    for(int i = 0; i < MAX; i++){
+        bst[i].used = 0;
     }
 }
 
 int main(){
-    int choice,ele;
+    int seln;
+    init();
     while(1){
-        printf("1.Insert Element\n2.Delete Element\n3.Peek\n4.Display\n5.Exit\nEnter your choice:");
-        scanf("%d",&choice);
-        switch(choice){
+        printf("1.Add element\n2.Inorder traversal\n3.Exit\nEnter your choice:");
+        scanf("%d",&seln);
+        switch(seln){
             case 1:
-                printf("Enter the element:");
-                scanf("%d",&ele);
-                Insert(ele);
+                input();
                 break;
             case 2:
-                Delete();
+                inorder(0);
+                printf("\n");
                 break;
             case 3:
-                Peek();
-                break;
-            case 4:
-                Display();
-                break;
-            case 5:
                 return 0;
             default:
-                printf("Incorrect input");
+                printf("Wrong input");
+                break;
         }
+    }
+}
+
+void input(){
+    int ele;
+    printf("Enter the element:");
+    scanf("%d",&ele);
+
+    if(bst[0].used == 0) {
+        bst[0].info = ele;
+        bst[0].used = 1;
+        return;
+    }
+
+    int i = 0;
+    while( i < MAX){
+        if(bst[i].info > ele){
+            int left = (2*i)+1;
+            if(left >= MAX){
+                printf("Overflow err:The array is full, no space for left child");
+            }
+            if(bst[left].used == 0){
+                bst[left].info = ele;
+                bst[left].used = 1;
+                return;
+            }
+            else{
+                i = left;
+            }
+        }
+        else{
+            int right = (i*2)+2;
+            if(right >= MAX){
+                printf("Overflow err:The array is full, no space for right child");
+            }
+            if(bst[right].used == 0){
+                bst[right].info = ele;
+                bst[right].used = 1;
+                return;
+            }
+            else{
+                i = right;
+            }
+        }
+    }
+
+    printf("The array is full");
+}
+
+void inorder(int index){
+    if(index<MAX && (bst[index].used == 1)){
+        inorder((2*index)+1);
+        printf("%d ",bst[index].info);
+        inorder((2*index)+2);
     }
 }

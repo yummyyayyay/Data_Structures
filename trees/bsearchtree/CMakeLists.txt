@@ -3,4 +3,6 @@ project(Data_Structures C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_subdirectory(bsearctree)
+add_subdirectory(array)
+add_subdirectory(linked_list)
+add_subdirectory(Right-in_Threaded_tree)

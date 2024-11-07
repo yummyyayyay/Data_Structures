@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "trees/bsearchtree/Right-in_Threaded_tree",
+		"source" : "trees/bsearchtree/Right-in_Threaded_tree"
+	}
+}

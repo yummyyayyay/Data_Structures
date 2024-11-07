@@ -1,0 +1,106 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "trees/bsearchtree/Right-in_Threaded_tree/trees_bsearchtree_Right-in_Threaded_tree.exe"
+		},
+		{
+			"path" : "trees/bsearchtree/Right-in_Threaded_tree/trees_bsearchtree_Right-in_Threaded_tree.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"trees/bsearchtree/Right-in_Threaded_tree/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "trees_bsearchtree_Right-in_Threaded_tree::@42b90638a4ff38a6da51",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "trees_bsearchtree_Right-in_Threaded_tree",
+	"nameOnDisk" : "trees_bsearchtree_Right-in_Threaded_tree.exe",
+	"paths" : 
+	{
+		"build" : "trees/bsearchtree/Right-in_Threaded_tree",
+		"source" : "trees/bsearchtree/Right-in_Threaded_tree"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "trees/bsearchtree/Right-in_Threaded_tree/main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

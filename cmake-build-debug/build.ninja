@@ -110,8 +110,6 @@ build Stacks/array/CMakeFiles/Stacks_array.dir/main.c.obj: C_COMPILER__Stacks_ar
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = Stacks\array\CMakeFiles\Stacks_array.dir
   OBJECT_FILE_DIR = Stacks\array\CMakeFiles\Stacks_array.dir
-  TARGET_COMPILE_PDB = Stacks\array\CMakeFiles\Stacks_array.dir\
-  TARGET_PDB = Stacks\array\Stacks_array.pdb
 
 
 # =============================================================================
@@ -127,10 +125,9 @@ build Stacks/array/Stacks_array.exe: C_EXECUTABLE_LINKER__Stacks_array_Debug Sta
   OBJECT_DIR = Stacks\array\CMakeFiles\Stacks_array.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = Stacks\array\CMakeFiles\Stacks_array.dir\
   TARGET_FILE = Stacks\array\Stacks_array.exe
   TARGET_IMPLIB = Stacks\array\libStacks_array.dll.a
-  TARGET_PDB = Stacks\array\Stacks_array.pdb
+  TARGET_PDB = Stacks_array.exe.dbg
 
 
 #############################################
@@ -174,8 +171,6 @@ build Stacks/linked_list/CMakeFiles/Stacks_linked_list.dir/main.c.obj: C_COMPILE
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = Stacks\linked_list\CMakeFiles\Stacks_linked_list.dir
   OBJECT_FILE_DIR = Stacks\linked_list\CMakeFiles\Stacks_linked_list.dir
-  TARGET_COMPILE_PDB = Stacks\linked_list\CMakeFiles\Stacks_linked_list.dir\
-  TARGET_PDB = Stacks\linked_list\Stacks_linked_list.pdb
 
 
 # =============================================================================
@@ -191,10 +186,9 @@ build Stacks/linked_list/Stacks_linked_list.exe: C_EXECUTABLE_LINKER__Stacks_lin
   OBJECT_DIR = Stacks\linked_list\CMakeFiles\Stacks_linked_list.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = Stacks\linked_list\CMakeFiles\Stacks_linked_list.dir\
   TARGET_FILE = Stacks\linked_list\Stacks_linked_list.exe
   TARGET_IMPLIB = Stacks\linked_list\libStacks_linked_list.dll.a
-  TARGET_PDB = Stacks\linked_list\Stacks_linked_list.pdb
+  TARGET_PDB = Stacks_linked_list.exe.dbg
 
 
 #############################################
@@ -266,8 +260,6 @@ build queues/array/CMakeFiles/queues_array.dir/main.c.obj: C_COMPILER__queues_ar
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = queues\array\CMakeFiles\queues_array.dir
   OBJECT_FILE_DIR = queues\array\CMakeFiles\queues_array.dir
-  TARGET_COMPILE_PDB = queues\array\CMakeFiles\queues_array.dir\
-  TARGET_PDB = queues\array\queues_array.pdb
 
 
 # =============================================================================
@@ -283,10 +275,9 @@ build queues/array/queues_array.exe: C_EXECUTABLE_LINKER__queues_array_Debug que
   OBJECT_DIR = queues\array\CMakeFiles\queues_array.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = queues\array\CMakeFiles\queues_array.dir\
   TARGET_FILE = queues\array\queues_array.exe
   TARGET_IMPLIB = queues\array\libqueues_array.dll.a
-  TARGET_PDB = queues\array\queues_array.pdb
+  TARGET_PDB = queues_array.exe.dbg
 
 
 #############################################
@@ -330,8 +321,6 @@ build queues/linked_list/CMakeFiles/queues_linked_list.dir/main.c.obj: C_COMPILE
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = queues\linked_list\CMakeFiles\queues_linked_list.dir
   OBJECT_FILE_DIR = queues\linked_list\CMakeFiles\queues_linked_list.dir
-  TARGET_COMPILE_PDB = queues\linked_list\CMakeFiles\queues_linked_list.dir\
-  TARGET_PDB = queues\linked_list\queues_linked_list.pdb
 
 
 # =============================================================================
@@ -347,10 +336,9 @@ build queues/linked_list/queues_linked_list.exe: C_EXECUTABLE_LINKER__queues_lin
   OBJECT_DIR = queues\linked_list\CMakeFiles\queues_linked_list.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = queues\linked_list\CMakeFiles\queues_linked_list.dir\
   TARGET_FILE = queues\linked_list\queues_linked_list.exe
   TARGET_IMPLIB = queues\linked_list\libqueues_linked_list.dll.a
-  TARGET_PDB = queues\linked_list\queues_linked_list.pdb
+  TARGET_PDB = queues_linked_list.exe.dbg
 
 
 #############################################
@@ -394,8 +382,6 @@ build queues/circular_queue/CMakeFiles/queues_circular_queue.dir/main.c.obj: C_C
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = queues\circular_queue\CMakeFiles\queues_circular_queue.dir
   OBJECT_FILE_DIR = queues\circular_queue\CMakeFiles\queues_circular_queue.dir
-  TARGET_COMPILE_PDB = queues\circular_queue\CMakeFiles\queues_circular_queue.dir\
-  TARGET_PDB = queues\circular_queue\queues_circular_queue.pdb
 
 
 # =============================================================================
@@ -411,10 +397,9 @@ build queues/circular_queue/queues_circular_queue.exe: C_EXECUTABLE_LINKER__queu
   OBJECT_DIR = queues\circular_queue\CMakeFiles\queues_circular_queue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = queues\circular_queue\CMakeFiles\queues_circular_queue.dir\
   TARGET_FILE = queues\circular_queue\queues_circular_queue.exe
   TARGET_IMPLIB = queues\circular_queue\libqueues_circular_queue.dll.a
-  TARGET_PDB = queues\circular_queue\queues_circular_queue.pdb
+  TARGET_PDB = queues_circular_queue.exe.dbg
 
 
 #############################################
@@ -458,8 +443,6 @@ build queues/dequeue/CMakeFiles/queues_dequeue.dir/main.c.obj: C_COMPILER__queue
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = queues\dequeue\CMakeFiles\queues_dequeue.dir
   OBJECT_FILE_DIR = queues\dequeue\CMakeFiles\queues_dequeue.dir
-  TARGET_COMPILE_PDB = queues\dequeue\CMakeFiles\queues_dequeue.dir\
-  TARGET_PDB = queues\dequeue\queues_dequeue.pdb
 
 
 # =============================================================================
@@ -475,10 +458,9 @@ build queues/dequeue/queues_dequeue.exe: C_EXECUTABLE_LINKER__queues_dequeue_Deb
   OBJECT_DIR = queues\dequeue\CMakeFiles\queues_dequeue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = queues\dequeue\CMakeFiles\queues_dequeue.dir\
   TARGET_FILE = queues\dequeue\queues_dequeue.exe
   TARGET_IMPLIB = queues\dequeue\libqueues_dequeue.dll.a
-  TARGET_PDB = queues\dequeue\queues_dequeue.pdb
+  TARGET_PDB = queues_dequeue.exe.dbg
 
 
 #############################################
@@ -550,8 +532,6 @@ build queues/priority_queues/array/CMakeFiles/queues_priority_queues_array.dir/m
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = queues\priority_queues\array\CMakeFiles\queues_priority_queues_array.dir
   OBJECT_FILE_DIR = queues\priority_queues\array\CMakeFiles\queues_priority_queues_array.dir
-  TARGET_COMPILE_PDB = queues\priority_queues\array\CMakeFiles\queues_priority_queues_array.dir\
-  TARGET_PDB = queues\priority_queues\array\queues_priority_queues_array.pdb
 
 
 # =============================================================================
@@ -567,10 +547,9 @@ build queues/priority_queues/array/queues_priority_queues_array.exe: C_EXECUTABL
   OBJECT_DIR = queues\priority_queues\array\CMakeFiles\queues_priority_queues_array.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = queues\priority_queues\array\CMakeFiles\queues_priority_queues_array.dir\
   TARGET_FILE = queues\priority_queues\array\queues_priority_queues_array.exe
   TARGET_IMPLIB = queues\priority_queues\array\libqueues_priority_queues_array.dll.a
-  TARGET_PDB = queues\priority_queues\array\queues_priority_queues_array.pdb
+  TARGET_PDB = queues_priority_queues_array.exe.dbg
 
 
 #############################################
@@ -614,8 +593,6 @@ build queues/priority_queues/linked_list/CMakeFiles/queues_priority_queues_linke
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = queues\priority_queues\linked_list\CMakeFiles\queues_priority_queues_linked_list.dir
   OBJECT_FILE_DIR = queues\priority_queues\linked_list\CMakeFiles\queues_priority_queues_linked_list.dir
-  TARGET_COMPILE_PDB = queues\priority_queues\linked_list\CMakeFiles\queues_priority_queues_linked_list.dir\
-  TARGET_PDB = queues\priority_queues\linked_list\queues_priority_queues_linked_list.pdb
 
 
 # =============================================================================
@@ -631,10 +608,9 @@ build queues/priority_queues/linked_list/queues_priority_queues_linked_list.exe:
   OBJECT_DIR = queues\priority_queues\linked_list\CMakeFiles\queues_priority_queues_linked_list.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = queues\priority_queues\linked_list\CMakeFiles\queues_priority_queues_linked_list.dir\
   TARGET_FILE = queues\priority_queues\linked_list\queues_priority_queues_linked_list.exe
   TARGET_IMPLIB = queues\priority_queues\linked_list\libqueues_priority_queues_linked_list.dll.a
-  TARGET_PDB = queues\priority_queues\linked_list\queues_priority_queues_linked_list.pdb
+  TARGET_PDB = queues_priority_queues_linked_list.exe.dbg
 
 
 #############################################
@@ -678,16 +654,12 @@ build Linked_Lists/CMakeFiles/Linked_Lists.dir/main.c.obj: C_COMPILER__Linked_Li
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = Linked_Lists\CMakeFiles\Linked_Lists.dir
   OBJECT_FILE_DIR = Linked_Lists\CMakeFiles\Linked_Lists.dir
-  TARGET_COMPILE_PDB = Linked_Lists\CMakeFiles\Linked_Lists.dir\
-  TARGET_PDB = Linked_Lists\Linked_Lists.pdb
 
 build Linked_Lists/CMakeFiles/Linked_Lists.dir/__/Stacks/array/main.c.obj: C_COMPILER__Linked_Lists_unscanned_Debug C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/array/main.c || cmake_object_order_depends_target_Linked_Lists
   DEP_FILE = Linked_Lists\CMakeFiles\Linked_Lists.dir\__\Stacks\array\main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = Linked_Lists\CMakeFiles\Linked_Lists.dir
   OBJECT_FILE_DIR = Linked_Lists\CMakeFiles\Linked_Lists.dir\__\Stacks\array
-  TARGET_COMPILE_PDB = Linked_Lists\CMakeFiles\Linked_Lists.dir\
-  TARGET_PDB = Linked_Lists\Linked_Lists.pdb
 
 
 # =============================================================================
@@ -703,10 +675,9 @@ build Linked_Lists/Linked_Lists.exe: C_EXECUTABLE_LINKER__Linked_Lists_Debug Lin
   OBJECT_DIR = Linked_Lists\CMakeFiles\Linked_Lists.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = Linked_Lists\CMakeFiles\Linked_Lists.dir\
   TARGET_FILE = Linked_Lists\Linked_Lists.exe
   TARGET_IMPLIB = Linked_Lists\libLinked_Lists.dll.a
-  TARGET_PDB = Linked_Lists\Linked_Lists.pdb
+  TARGET_PDB = Linked_Lists.exe.dbg
 
 
 #############################################
@@ -750,8 +721,6 @@ build misc/CMakeFiles/misc.dir/main.c.obj: C_COMPILER__misc_unscanned_Debug C$:/
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = misc\CMakeFiles\misc.dir
   OBJECT_FILE_DIR = misc\CMakeFiles\misc.dir
-  TARGET_COMPILE_PDB = misc\CMakeFiles\misc.dir\
-  TARGET_PDB = misc\misc.pdb
 
 
 # =============================================================================
@@ -767,10 +736,9 @@ build misc/misc.exe: C_EXECUTABLE_LINKER__misc_Debug misc/CMakeFiles/misc.dir/ma
   OBJECT_DIR = misc\CMakeFiles\misc.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = misc\CMakeFiles\misc.dir\
   TARGET_FILE = misc\misc.exe
   TARGET_IMPLIB = misc\libmisc.dll.a
-  TARGET_PDB = misc\misc.pdb
+  TARGET_PDB = misc.exe.dbg
 
 
 #############################################
@@ -794,6 +762,245 @@ build misc/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build misc/rebuild_cache: phony misc/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Pavan/CLionProjects/Data_Structures/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build trees/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build trees/edit_cache: phony trees/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build trees/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Pavan\CLionProjects\Data_Structures -BC:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build trees/rebuild_cache: phony trees/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Pavan/CLionProjects/Data_Structures/trees/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build trees/bsearchtree/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees\bsearchtree && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build trees/bsearchtree/edit_cache: phony trees/bsearchtree/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build trees/bsearchtree/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees\bsearchtree && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Pavan\CLionProjects\Data_Structures -BC:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build trees/bsearchtree/rebuild_cache: phony trees/bsearchtree/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target trees_bsearchtree_array
+
+
+#############################################
+# Order-only phony target for trees_bsearchtree_array
+
+build cmake_object_order_depends_target_trees_bsearchtree_array: phony || .
+
+build trees/bsearchtree/array/CMakeFiles/trees_bsearchtree_array.dir/main.c.obj: C_COMPILER__trees_bsearchtree_array_unscanned_Debug C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/array/main.c || cmake_object_order_depends_target_trees_bsearchtree_array
+  DEP_FILE = trees\bsearchtree\array\CMakeFiles\trees_bsearchtree_array.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = trees\bsearchtree\array\CMakeFiles\trees_bsearchtree_array.dir
+  OBJECT_FILE_DIR = trees\bsearchtree\array\CMakeFiles\trees_bsearchtree_array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target trees_bsearchtree_array
+
+
+#############################################
+# Link the executable trees\bsearchtree\array\trees_bsearchtree_array.exe
+
+build trees/bsearchtree/array/trees_bsearchtree_array.exe: C_EXECUTABLE_LINKER__trees_bsearchtree_array_Debug trees/bsearchtree/array/CMakeFiles/trees_bsearchtree_array.dir/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = trees\bsearchtree\array\CMakeFiles\trees_bsearchtree_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = trees\bsearchtree\array\trees_bsearchtree_array.exe
+  TARGET_IMPLIB = trees\bsearchtree\array\libtrees_bsearchtree_array.dll.a
+  TARGET_PDB = trees_bsearchtree_array.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build trees/bsearchtree/array/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees\bsearchtree\array && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build trees/bsearchtree/array/edit_cache: phony trees/bsearchtree/array/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build trees/bsearchtree/array/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees\bsearchtree\array && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Pavan\CLionProjects\Data_Structures -BC:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build trees/bsearchtree/array/rebuild_cache: phony trees/bsearchtree/array/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target trees_bsearchtree_linked_list
+
+
+#############################################
+# Order-only phony target for trees_bsearchtree_linked_list
+
+build cmake_object_order_depends_target_trees_bsearchtree_linked_list: phony || .
+
+build trees/bsearchtree/linked_list/CMakeFiles/trees_bsearchtree_linked_list.dir/main.c.obj: C_COMPILER__trees_bsearchtree_linked_list_unscanned_Debug C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/linked_list/main.c || cmake_object_order_depends_target_trees_bsearchtree_linked_list
+  DEP_FILE = trees\bsearchtree\linked_list\CMakeFiles\trees_bsearchtree_linked_list.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = trees\bsearchtree\linked_list\CMakeFiles\trees_bsearchtree_linked_list.dir
+  OBJECT_FILE_DIR = trees\bsearchtree\linked_list\CMakeFiles\trees_bsearchtree_linked_list.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target trees_bsearchtree_linked_list
+
+
+#############################################
+# Link the executable trees\bsearchtree\linked_list\trees_bsearchtree_linked_list.exe
+
+build trees/bsearchtree/linked_list/trees_bsearchtree_linked_list.exe: C_EXECUTABLE_LINKER__trees_bsearchtree_linked_list_Debug trees/bsearchtree/linked_list/CMakeFiles/trees_bsearchtree_linked_list.dir/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = trees\bsearchtree\linked_list\CMakeFiles\trees_bsearchtree_linked_list.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = trees\bsearchtree\linked_list\trees_bsearchtree_linked_list.exe
+  TARGET_IMPLIB = trees\bsearchtree\linked_list\libtrees_bsearchtree_linked_list.dll.a
+  TARGET_PDB = trees_bsearchtree_linked_list.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build trees/bsearchtree/linked_list/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees\bsearchtree\linked_list && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build trees/bsearchtree/linked_list/edit_cache: phony trees/bsearchtree/linked_list/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build trees/bsearchtree/linked_list/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees\bsearchtree\linked_list && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Pavan\CLionProjects\Data_Structures -BC:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build trees/bsearchtree/linked_list/rebuild_cache: phony trees/bsearchtree/linked_list/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target trees_bsearchtree_Right-in_Threaded_tree
+
+
+#############################################
+# Order-only phony target for trees_bsearchtree_Right-in_Threaded_tree
+
+build cmake_object_order_depends_target_trees_bsearchtree_Right-in_Threaded_tree: phony || .
+
+build trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/trees_bsearchtree_Right-in_Threaded_tree.dir/main.c.obj: C_COMPILER__trees_bsearchtree_Right-in_Threaded_tree_unscanned_Debug C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/Right-in_Threaded_tree/main.c || cmake_object_order_depends_target_trees_bsearchtree_Right-in_Threaded_tree
+  DEP_FILE = trees\bsearchtree\Right-in_Threaded_tree\CMakeFiles\trees_bsearchtree_Right-in_Threaded_tree.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = trees\bsearchtree\Right-in_Threaded_tree\CMakeFiles\trees_bsearchtree_Right-in_Threaded_tree.dir
+  OBJECT_FILE_DIR = trees\bsearchtree\Right-in_Threaded_tree\CMakeFiles\trees_bsearchtree_Right-in_Threaded_tree.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target trees_bsearchtree_Right-in_Threaded_tree
+
+
+#############################################
+# Link the executable trees\bsearchtree\Right-in_Threaded_tree\trees_bsearchtree_Right-in_Threaded_tree.exe
+
+build trees/bsearchtree/Right-in_Threaded_tree/trees_bsearchtree_Right-in_Threaded_tree.exe: C_EXECUTABLE_LINKER__trees_bsearchtree_Right-in_Threaded_tree_Debug trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/trees_bsearchtree_Right-in_Threaded_tree.dir/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = trees\bsearchtree\Right-in_Threaded_tree\CMakeFiles\trees_bsearchtree_Right-in_Threaded_tree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = trees\bsearchtree\Right-in_Threaded_tree\trees_bsearchtree_Right-in_Threaded_tree.exe
+  TARGET_IMPLIB = trees\bsearchtree\Right-in_Threaded_tree\libtrees_bsearchtree_Right-in_Threaded_tree.dll.a
+  TARGET_PDB = trees_bsearchtree_Right-in_Threaded_tree.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees\bsearchtree\Right-in_Threaded_tree && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build trees/bsearchtree/Right-in_Threaded_tree/edit_cache: phony trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug\trees\bsearchtree\Right-in_Threaded_tree && "D:\Jetbrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Pavan\CLionProjects\Data_Structures -BC:\Users\Pavan\CLionProjects\Data_Structures\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build trees/bsearchtree/Right-in_Threaded_tree/rebuild_cache: phony trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -838,6 +1045,18 @@ build queues_priority_queues_linked_list: phony queues/priority_queues/linked_li
 
 build queues_priority_queues_linked_list.exe: phony queues/priority_queues/linked_list/queues_priority_queues_linked_list.exe
 
+build trees_bsearchtree_Right-in_Threaded_tree: phony trees/bsearchtree/Right-in_Threaded_tree/trees_bsearchtree_Right-in_Threaded_tree.exe
+
+build trees_bsearchtree_Right-in_Threaded_tree.exe: phony trees/bsearchtree/Right-in_Threaded_tree/trees_bsearchtree_Right-in_Threaded_tree.exe
+
+build trees_bsearchtree_array: phony trees/bsearchtree/array/trees_bsearchtree_array.exe
+
+build trees_bsearchtree_array.exe: phony trees/bsearchtree/array/trees_bsearchtree_array.exe
+
+build trees_bsearchtree_linked_list: phony trees/bsearchtree/linked_list/trees_bsearchtree_linked_list.exe
+
+build trees_bsearchtree_linked_list.exe: phony trees/bsearchtree/linked_list/trees_bsearchtree_linked_list.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -846,7 +1065,7 @@ build queues_priority_queues_linked_list.exe: phony queues/priority_queues/linke
 #############################################
 # Folder: C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug
 
-build all: phony Stacks/all queues/all Linked_Lists/all misc/all
+build all: phony Stacks/all queues/all Linked_Lists/all misc/all trees/all
 
 # =============================================================================
 
@@ -940,20 +1159,55 @@ build queues/priority_queues/array/all: phony queues/priority_queues/array/queue
 build queues/priority_queues/linked_list/all: phony queues/priority_queues/linked_list/queues_priority_queues_linked_list.exe
 
 # =============================================================================
+
+#############################################
+# Folder: C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees
+
+build trees/all: phony trees/bsearchtree/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree
+
+build trees/bsearchtree/all: phony trees/bsearchtree/array/all trees/bsearchtree/linked_list/all trees/bsearchtree/Right-in_Threaded_tree/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/Right-in_Threaded_tree
+
+build trees/bsearchtree/Right-in_Threaded_tree/all: phony trees/bsearchtree/Right-in_Threaded_tree/trees_bsearchtree_Right-in_Threaded_tree.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/array
+
+build trees/bsearchtree/array/all: phony trees/bsearchtree/array/trees_bsearchtree_array.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/linked_list
+
+build trees/bsearchtree/linked_list/all: phony trees/bsearchtree/linked_list/trees_bsearchtree_linked_list.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Pavan/CLionProjects/Data_Structures/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Linked_Lists/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/misc/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/circular_queue/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/dequeue/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/linked_list/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Pavan/CLionProjects/Data_Structures/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Linked_Lists/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/misc/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/circular_queue/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/dequeue/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/Right-in_Threaded_tree/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/linked_list/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Pavan/CLionProjects/Data_Structures/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Linked_Lists/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/misc/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/circular_queue/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/dequeue/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/linked_list/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/Pavan/CLionProjects/Data_Structures/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Linked_Lists/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/Stacks/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/misc/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/circular_queue/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/dequeue/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/queues/priority_queues/linked_list/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/Right-in_Threaded_tree/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/array/CMakeLists.txt C$:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree/linked_list/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Jetbrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

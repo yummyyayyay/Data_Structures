@@ -1,2 +1,8 @@
 # ninja log v6
-4	163	7494773775042003	misc/CMakeFiles/misc.dir/main.c.obj	7c2f42b1341271a4
+15	185	7521954931898389	misc/CMakeFiles/misc.dir/main.c.obj	7c2f42b1341271a4
+215	430	7519063068371425	trees/bsearchtree/array/trees_bsearchtree_array.exe	36318aad6f621c7b
+7	214	7519063066285581	trees/bsearchtree/array/CMakeFiles/trees_bsearchtree_array.dir/main.c.obj	91993ef39a82606
+15	1554	7526515875875408	build.ninja	15a3b771668dfedb
+9	213	7522018103997605	trees/bsearchtree/linked_list/CMakeFiles/trees_bsearchtree_linked_list.dir/main.c.obj	5c14a9b85976bd46
+213	375	7522018106038487	trees/bsearchtree/linked_list/trees_bsearchtree_linked_list.exe	da71a6a89ea92f43
+72	153	7520518395257943	misc/misc.exe	2e7fa435a74bcee6

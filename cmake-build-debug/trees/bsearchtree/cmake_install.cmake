@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Pavan/CLionProjects/Data_Structures
+# Install script for directory: C:/Users/Pavan/CLionProjects/Data_Structures/trees/bsearchtree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,36 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Stacks/cmake_install.cmake")
+  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/array/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/queues/cmake_install.cmake")
+  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/linked_list/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/Linked_Lists/cmake_install.cmake")
+  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/Right-in_Threaded_tree/cmake_install.cmake")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/misc/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/cmake_install.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
