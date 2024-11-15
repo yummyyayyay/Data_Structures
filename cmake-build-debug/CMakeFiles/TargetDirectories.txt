@@ -49,3 +49,8 @@ C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree
 C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/trees_bsearchtree_Right-in_Threaded_tree.dir
 C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/edit_cache.dir
 C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/trees/bsearchtree/Right-in_Threaded_tree/CMakeFiles/rebuild_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/heap/CMakeFiles/edit_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/heap/CMakeFiles/rebuild_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/heap/bottom_up/CMakeFiles/heap_bottom_up.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/heap/bottom_up/CMakeFiles/edit_cache.dir
+C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/heap/bottom_up/CMakeFiles/rebuild_cache.dir
