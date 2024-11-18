@@ -3,4 +3,4 @@ project(Data_Structures C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(heap_bottom_up main.c)
+add_executable(heap_min_max_pqueue main.c)

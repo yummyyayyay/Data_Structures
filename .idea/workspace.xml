@@ -17,15 +17,20 @@
       <config projectName="Data_Structures" targetName="Linked_Lists" />
       <config projectName="Data_Structures" targetName="misc" />
       <config projectName="Data_Structures" targetName="queues_linked_list" />
+      <config projectName="Data_Structures" targetName="heap_top_down" />
       <config projectName="Data_Structures" targetName="queues_priority_queues_array" />
       <config projectName="Data_Structures" targetName="trees_bsearchtree_Right-in_Threaded_tree" />
+      <config projectName="Data_Structures" targetName="heap_min_max_pqueue" />
+      <config projectName="Data_Structures" targetName="graphs_adjacency_list" />
       <config projectName="Data_Structures" targetName="queues_circular_queue" />
       <config projectName="Data_Structures" targetName="trees_bsearchtree_linked_list" />
       <config projectName="Data_Structures" targetName="queues_array" />
       <config projectName="Data_Structures" targetName="Stacks_array" />
+      <config projectName="Data_Structures" targetName="graphs_BFS" />
       <config projectName="Data_Structures" targetName="queues_priority_queues_linked_list" />
       <config projectName="Data_Structures" targetName="Stacks_linked_list" />
       <config projectName="Data_Structures" targetName="queues_dequeue" />
+      <config projectName="Data_Structures" targetName="graphs_adjacency_matrix" />
       <config projectName="Data_Structures" targetName="Data_Structures" />
       <config projectName="Data_Structures" targetName="trees_bsearchtree_array" />
       <config projectName="Data_Structures" targetName="heap_bottom_up" />
@@ -40,25 +45,32 @@
     <list default="true" id="df5317ac-3868-4305-b1e8-96b4d1bde514" name="Changes" comment="2nd commit - inclusion of queues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-751031fd4325b9103aef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-163df7de382f8505b58b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9ee8eb4446db856e3d83.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-07T02-59-47-0655.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-211224c2ccd8cb50f2df.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-b3d0e6a18f83335f4920.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ad2a422fbff0a8d66349.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-14T04-21-44-0659.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/heap/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/heap/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/BFS/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/BFS/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/BFS/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/BFS/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/adjacency_list/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/adjacency_list/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/adjacency_list/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/adjacency_list/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/adjacency_matrix/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/adjacency_matrix/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/adjacency_matrix/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/adjacency_matrix/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heap/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/heap/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap/bottom_up/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/heap/bottom_up/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heap/bottom_up/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/heap/bottom_up/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/misc/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trees/bsearchtree/Right-in_Threaded_tree/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/trees/bsearchtree/Right-in_Threaded_tree/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trees/bsearchtree/linked_list/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/trees/bsearchtree/linked_list/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/min_max_pqueue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/heap/min_max_pqueue/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/min_max_pqueue/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/heap/min_max_pqueue/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/top_down/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/heap/top_down/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/top_down/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/heap/top_down/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +81,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -116,7 +135,10 @@
     &quot;CMake Application.Linked_Lists.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.Stacks.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.Stacks_linked_list.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.graphs_BFS.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.heap_bottom_up.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.heap_min_max_pqueue.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.heap_top_down.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.misc.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.new_target.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.queues.executor&quot;: &quot;Debug&quot;,
@@ -135,7 +157,7 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pavan/CLionProjects/Data_Structures/heap&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pavan/CLionProjects/Data_Structures/heap/min_max_pqueue&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
   },
@@ -149,11 +171,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\heap\min_max_pqueue" />
+      <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\heap\top_down" />
       <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\heap" />
       <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\heap\bottom_up" />
       <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\trees\bsearchtree\Right-in_Threaded_tree" />
-      <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\trees\bsearchtree\linked list" />
-      <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\trees\bsearctree\array" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\queues\priority_queues\array" />
@@ -163,7 +185,12 @@
       <recent name="C:\Users\Pavan\CLionProjects\Data_Structures\Stacks" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.heap_bottom_up">
+  <component name="RunManager" selected="CMake Application.graphs_BFS">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Linked_Lists" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures" TARGET_NAME="Linked_Lists" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures" RUN_TARGET_NAME="Linked_Lists">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -179,7 +206,32 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="graphs_BFS" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures" TARGET_NAME="graphs_BFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures" RUN_TARGET_NAME="graphs_BFS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="graphs_adjacency_list" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures" TARGET_NAME="graphs_adjacency_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures" RUN_TARGET_NAME="graphs_adjacency_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="graphs_adjacency_matrix" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures" TARGET_NAME="graphs_adjacency_matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures" RUN_TARGET_NAME="graphs_adjacency_matrix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="heap_bottom_up" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures" TARGET_NAME="heap_bottom_up" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures" RUN_TARGET_NAME="heap_bottom_up">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heap_min_max_pqueue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures" TARGET_NAME="heap_min_max_pqueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures" RUN_TARGET_NAME="heap_min_max_pqueue">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heap_top_down" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures" TARGET_NAME="heap_top_down" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures" RUN_TARGET_NAME="heap_top_down">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -238,7 +290,12 @@
       <item itemvalue="CMake Application.Linked_Lists" />
       <item itemvalue="CMake Application.Stacks_array" />
       <item itemvalue="CMake Application.Stacks_linked_list" />
+      <item itemvalue="CMake Application.graphs_adjacency_list" />
+      <item itemvalue="CMake Application.graphs_adjacency_matrix" />
+      <item itemvalue="CMake Application.graphs_BFS" />
       <item itemvalue="CMake Application.heap_bottom_up" />
+      <item itemvalue="CMake Application.heap_min_max_pqueue" />
+      <item itemvalue="CMake Application.heap_top_down" />
       <item itemvalue="CMake Application.misc" />
       <item itemvalue="CMake Application.queues_array" />
       <item itemvalue="CMake Application.queues_circular_queue" />
@@ -330,7 +387,9 @@
       <workItem from="1731638304704" duration="5310000" />
       <workItem from="1731666218060" duration="269000" />
       <workItem from="1731670922759" duration="1874000" />
-      <workItem from="1731672820410" duration="658000" />
+      <workItem from="1731672820410" duration="5532000" />
+      <workItem from="1731805877514" duration="35806000" />
+      <workItem from="1731922495508" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit - inclusion of queues">
       <option name="closed" value="true" />
@@ -340,7 +399,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727189049234</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd commit - inclusion of queues">
+      <option name="closed" value="true" />
+      <created>1731673542805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731673542805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2nd commit - inclusion of queues">
+      <option name="closed" value="true" />
+      <created>1731673708040</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731673708040</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VCPKGProject">

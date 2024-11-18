@@ -1,3 +1,4 @@
+//bottom up MAX heap
 #include <stdio.h>
 #define MAX 100
 
@@ -17,10 +18,10 @@ void heapInit(){
     }
 }
 
-void buildMaxHeap();
 int insert(int);
 void Heapify(HEAP*,int);
 void display();
+void buildMaxHeap();
 
 int main(){
     int choice,ele;
@@ -57,9 +58,6 @@ int insert(int val){
     int i = 1;
     while(i < MAX) {
         int left = (2*i), right = ((2*i)+1);
-        if (Heap[right].occupied == 1 && Heap[left].occupied == 1) {
-            i++;
-        }
         if(Heap[left].occupied == 0 && left < MAX){
             Heap[left].ele = val;
             Heap[left].occupied = 1;
@@ -71,6 +69,9 @@ int insert(int val){
             Heap[right].occupied = 1;
             size++;
             return size;
+        }
+        if (Heap[right].occupied == 1 && Heap[left].occupied == 1) {
+            i++;
         }
     }
 }

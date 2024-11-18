@@ -42,3 +42,13 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/heap/bottom_up/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/heap/top_down/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Pavan/CLionProjects/Data_Structures/cmake-build-debug/heap/min_max_pqueue/cmake_install.cmake")
+endif()
+

@@ -25,3 +25,9 @@
     - using arrays
     - using linked lists
   -Right-in-Threaded trees
+- **Graphs**
+  - creation 
+    - Adjacency Matrix
+    - Adjacency list
+  - Traversal 
+    - BFS
