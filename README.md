@@ -13,3 +13,15 @@
 - **Stacks**
   - Using Arrays
   - Using Linked Lists (needs to be uploaded)
+- **Queues**
+  - using arrays
+  - using linked lists
+  - types of queues
+    - circular queues
+    - dequeues
+    - priority queues
+- **Trees**
+  - Binary Search Trees
+    - using arrays
+    - using linked lists
+  -Right-in-Threaded trees
