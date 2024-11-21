@@ -31,3 +31,7 @@
     - Adjacency list
   - Traversal 
     - BFS
+    - DFS
+- **Hashing**
+  - Open addressing(linear probing)
+  - Separate chaining

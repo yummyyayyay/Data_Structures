@@ -1,16 +1,19 @@
 #include <stdio.h>
-#define MAX 10
+#define MAX 15
 
-void BFS(int adj[][MAX],int visited[MAX],int start){
-    int queue[MAX],rear = -1,front = -1,current;
-    queue[rear++] = start;
+void BFS(int adj[][MAX],int visited[],int start,int nv){
+    int queue[MAX],front = -1,rear = -1;
+    start--;
+    printf("BFS Traversal:");
     visited[start] = 1;
-    while(front != rear){
-        current = queue[front++];
-        printf("%c \t",65+current);
+    queue[rear++] = start;
 
-        for(int i = 0;i<MAX;i++){
-            if(adj[current][i] == 1 && visited[i] == 0){
+    while(front != rear){
+        int current = queue[front++];
+        printf("%c ",65+current);
+
+        for(int i = 0;i<nv;i++){
+            if(adj[current][i] == 1 && visited[i] != 1){
                 queue[rear++] = i;
                 visited[i] = 1;
             }
@@ -19,18 +22,21 @@ void BFS(int adj[][MAX],int visited[MAX],int start){
 }
 
 int main(){
-    int adj[MAX][MAX],visited[MAX] = {0};
-    int start;
-    printf("Enter the adjacency matrix:");
-    for(int i = 0 ; i<MAX;i++){
-        for(int j =0;j<MAX;j++){
+    int adj[MAX][MAX];
+    int visited[MAX];
+    int nv,start;
+
+    printf("Enter the number of vertices:");
+    scanf("%d",&nv);
+
+    for(int i = 0; i < nv;i++){
+        for(int j = 0;j<nv;j++){
+            printf("Enter the element into adjacency matrix:");
             scanf("%d",&adj[i][j]);
         }
     }
-    printf("Enter the starting node:");
+    printf("Enter the start vertex:");
     scanf("%d",&start);
-
-    printf("Enter the starting node %c:\n",65+start);
-    BFS(adj,visited,start);
+    BFS(adj,visited,start,nv);
     return 0;
 }
