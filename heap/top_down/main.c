@@ -1,4 +1,5 @@
 //MAX heap top down
+//Here we heapify immediately after insertion unlike bottom up heap
 #include <stdio.h>
 #define MAX 100
 

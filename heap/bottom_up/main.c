@@ -1,4 +1,5 @@
 //bottom up MAX heap
+//here elements are inserted first and then the heapify function is applied after insertions
 #include <stdio.h>
 #define MAX 100
 
@@ -12,8 +13,7 @@ int size = 0;
 
 void heapInit(){
     Heap[0].ele = -1;
-    Heap[0].occupied = 0;
-    for(int i = 1; i < MAX; i++){
+    for(int i = 0; i < MAX; i++){
         Heap[i].occupied = 0;
     }
 }

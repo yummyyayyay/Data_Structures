@@ -1,4 +1,4 @@
-//PQueue using Min-Max Heap
+//PQueue using Max Heap
 //ascending priority queue - here we will arbitrarily add in elements into the heap, and then we will delete the smallest element always;
 //descending priority queue - same as apq, but it is in descending order
 #include <stdio.h>

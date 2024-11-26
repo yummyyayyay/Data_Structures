@@ -69,7 +69,7 @@ void deleteGraph(NODE* adj[],int nVert){
             temp =current;
             current = current->next;
             free(temp);
-        }C
+        }
         adj[i] = NULL;
     }
 }

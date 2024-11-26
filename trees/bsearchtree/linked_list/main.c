@@ -346,7 +346,7 @@ NODE* deleteTree(NODE* root){
 //        return;
 //    stack s = emptyStack;
 //    push(s,currentNode);
-//    while(isEmpty(s)){
+//    while(!isEmpty(s)){
 //        currentNode = pop(s);
 //        printf("%d",currentNode->info);
 //        if(currentNode->right != NULL)
@@ -356,7 +356,7 @@ NODE* deleteTree(NODE* root){
 //    }
 //}
 
-//posorder
+//postorder
 //void postorder(NODE* root){
 //    stack s1 = emptyStack;
 //    stack s2 = emptyStack;
@@ -371,7 +371,7 @@ NODE* deleteTree(NODE* root){
 //            push(s2,current->left);
 //    }
 //    while(isEmpty(s2)){
-//        current = pop(s2);``
+//        current = pop(s2);
 //        printf("%d ",current->info);
 //    }
 //} 

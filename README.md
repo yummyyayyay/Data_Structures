@@ -24,7 +24,8 @@
   - Binary Search Trees
     - using arrays
     - using linked lists
-  -Right-in-Threaded trees
+  - ~~Right-in-Threaded trees~~
+  - Expression Trees
 - **Graphs**
   - creation 
     - Adjacency Matrix
