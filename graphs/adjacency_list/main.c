@@ -70,6 +70,5 @@ void deleteGraph(NODE* adj[],int nVert){
             current = current->next;
             free(temp);
         }
-        adj[i] = NULL;
     }
 }

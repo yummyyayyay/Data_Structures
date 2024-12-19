@@ -53,7 +53,7 @@ int main(){
     return 0;
 }*/
 
-//ascending priority queue
+//descending priority queue
 #include <stdio.h>
 
 typedef struct pqueue{
@@ -88,8 +88,8 @@ pqueue delete(pqueue pq[],int* count){
         for(int i = 1;i< *count; i++){
             pq[i-1] = pq[i];
         }
+        (*count)--;
     }
-    (*count)--;
     return key;
 }
 

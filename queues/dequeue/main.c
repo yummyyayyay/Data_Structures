@@ -31,7 +31,7 @@ int main(){
 void input_deque(){
     int choice;
     while(1){
-        printf("1.insert_right\n2.delete right\n3.delete left\n4.display\n5.exist\nEnter your choice:");
+        printf("1.insert_right\n2.delete right\n3.delete left\n4.display\n5.exit\nEnter your choice:");
         scanf("%d",&choice);
         switch(choice){
             case 1:

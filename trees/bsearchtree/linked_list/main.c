@@ -325,7 +325,7 @@ NODE* deleteTree(NODE* root){
 //
 //}NODE;
 
-//void inorder(NODE root){
+//void inorder(NODE* root){
 //    stack s = emptyStack;
 //    NODE* currentNode = &root;
 //    do{
@@ -336,7 +336,7 @@ NODE* deleteTree(NODE* root){
 //        NODE poppedNode = pop(s);
 //        printf("%d ", poppedNode.info);
 //        currentNode = currentNode->right;
-//    }
+//
 //}while(isEmpty(s) && currentNode != NULL);
 
 //preorder

@@ -2,73 +2,79 @@
 #include <stdlib.h>
 
 typedef struct node{
-    int val;
-    int thread;
+    int info;
     struct node* right;
     struct node* left;
-}NODE;
+    int rthread;
+}Node;
 
-NODE* root = NULL;
-NODE* insertNode(NODE* root,NODE* ptr,NODE* rt){
-
-    if(root == NULL) {
-        root = ptr;
-        if (rt != NULL) {
-            root->right = rt;
-            root->thread = 1;
-        }
-    }
-    else if(ptr->val < root->val)
-    root->left = insertNode(root->left, ptr, root);
-    else
-    if(root->thread == 1){
-        root->right = insertNode(NULL, ptr, rt);
-        root->thread = 0;
-    }
-    else
-        root->right = insertNode(root->right, ptr, rt);
-    return root;
+Node* createNode(int ele){
+    Node* temp = (Node*) malloc(sizeof(Node));
+    temp->info = ele;
+    temp->right = NULL;
+    temp->left = NULL;
+    temp->rthread = 1;
+    return temp;
 }
 
-NODE* createTree(){
-    int val;
-    printf("Enter the numbers , press -1 to terminate:");
-    fscanf(stdin,"%d",val);
-    do{
-        NODE* ptr = (NODE*)malloc(sizeof(NODE));
-        ptr->val = val;
-        ptr->right = NULL;
-        ptr->left = NULL;
-        ptr->thread = 0;
-        root = insertNode(root,ptr,NULL);
-        printf("Enter the next element");
-        scanf("%d",&val);
-    }while(val != -1);
-    return root;
+void setLeft(Node* q,int ele){
+    Node* temp = createNode(ele);
+    q->left = temp;
+    temp->right = q;
 }
 
-void inorder(NODE* root){
-    NODE* ptr = root,*prev;
+void setRight(Node* q,int ele){
+    Node* temp = createNode(ele);
+    temp->right = q->right;
+    q->right = temp;
+    q->rthread = 0;
+}
+
+void inorder(Node* root){
+    Node* p = root,*q;
     do{
-        while(ptr != NULL){
-            prev = ptr;
-            ptr = ptr->left;
+        q = NULL;
+        while(p != NULL){
+            q = p;
+            p = p->left;
         }
-        if(prev != NULL){
-            printf("%d ",prev->val);
-            ptr = prev->right;
-            while(prev != NULL && prev->thread){
-                printf("%d ",ptr->val);
-                prev = ptr;
-                ptr = prev->right;
+        if(q != NULL){
+            printf("%d",q->info);
+            p = q->right;
+            while(q->rthread && p!= NULL){
+                printf("%d",p->info);
+                q = p;
+                p = p->right;
             }
         }
-    }while(ptr != NULL);
+    } while(q != NULL);
 }
 
-int main(){
-    createTree();
-    printf("The inorder representation of the tree will be\n");
-    inorder(root);
-    return 0;
+void create(Node* root){
+    Node *p = root;
+    int ele;
+    printf("Enter the element you want to enter:");
+    scanf("%d",&ele);
+    if(root == NULL){
+        root = createNode(ele);
+        return;
+    }
+
+    while(p != NULL){
+        if(ele < p->info){
+            if(p->left == NULL){
+                setLeft(p,ele);
+                return;
+            }
+            p = p->left;
+        }
+        else if(ele > p->info){
+            if(p->right == NULL){
+                setRight(p,ele);
+                return;
+            }
+            p = p->right;
+        }
+    }
+
 }

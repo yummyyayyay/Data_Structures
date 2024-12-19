@@ -27,13 +27,13 @@ int main(){
         printf("The word exists\n");
     }
     else
-        printf("The word doesnt exit in the tree\n");
+        printf("The word doesn't exit in the tree\n");
 
     if(search(root,"arkansas")){
         printf("The word exists\n");
     }
     else
-        printf("The word doesnt exit in the tree\n");
+        printf("The word doesn't exit in the tree\n");
 
 
     delete(root,"apple",0,strlen("apple"));
@@ -41,7 +41,7 @@ int main(){
         printf("The word exists\n");
     }
     else
-        printf("The word doesnt exit in the tree\n");
+        printf("The word doesn't exit in the tree\n");
 
 
     return 0;

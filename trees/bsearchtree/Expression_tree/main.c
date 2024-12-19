@@ -5,7 +5,7 @@
 
 typedef struct node{
     char info;
-    struct node* right,*left;
+    struct node *right,*left;
 }NODE;
 
 typedef struct tree{
@@ -39,7 +39,7 @@ NODE* pop(STACK* ps){
     ps->top--;
     return t;
 }
-float eval(NODE* r){
+float eval(NODE* r){ // NOLINT(*-no-recursion)
     float res;
     switch (r->info) {
         case '+':
@@ -60,11 +60,9 @@ float eval(NODE* r){
     return res;
 }
 
-float eval_tree(TREE* pt){
-    return eval(pt->root);
-}
-
-
+//float eval_tree(TREE* pt){
+//    return eval(pt->root);
+//}
 
 int main(){
     char postfix[MAX];
@@ -90,6 +88,6 @@ int main(){
         i++;
     }
     to.root=pop(&so);
-    printf("%0.2f",eval_tree(&to));
+    printf("%0.2f",eval(to.root));
     return 0;
 }

@@ -99,7 +99,7 @@ void Heapify(HEAP* arr, int index) {
 }
 
 void buildMaxHeap() {
-    for (int i = size; i >= 1; i--) {
+    for (int i = size-1; i >= 1; i--) {
         Heapify(Heap, i);
     }
 }

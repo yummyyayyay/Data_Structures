@@ -1,5 +1,5 @@
 //collision resolution using open addressing
-//linear probing
+//linear probing (h(k)+i)%size)
 #include <stdio.h>
 #include <string.h>
 #define SIZE 7

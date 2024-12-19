@@ -34,7 +34,7 @@ void Display(){
     if(REAR == -1 && FRONT == -1)
         printf("List is empty\n");
     else{
-        for(int i = 0 ; i <= REAR;i++){
+        for(int i = FRONT ; i <= REAR;i++){
             printf("%d",queue[i]);
             if(i != REAR)
                 printf("->");
